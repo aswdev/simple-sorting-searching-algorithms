@@ -21,7 +21,7 @@ int main() {
 }
 void fillthearray(int * arr, int s) {
     for (int i = 0; i < s; i++) {
-        cout << "T[" << i << "]=";
+        cout << "Array element[" << i << "]=";
         cin >> arr[i];
     }
 }
